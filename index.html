@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mabl テストサイト</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>mabl 機能検証用デモサイト</h1>
+    </header>
+
+    <main>
+        <section id="static-content">
+            <h2>静的コンテンツ</h2>
+            <p>このセクションは常に同じ内容を表示します。</p>
+        </section>
+
+        <section id="interactive-elements">
+            <h2>インタラクティブ要素</h2>
+            <p id="message">ボタンをクリックするとメッセージが変わります。</p>
+            <button id="changeTextBtn">メッセージ変更</button>
+        </section>
+
+        <section id="login-form">
+            <h2>ログインフォーム</h2>
+            <form id="login">
+                <div class="form-group">
+                    <label for="username">ユーザー名:</label>
+                    <input type="text" id="username" name="username">
+                </div>
+                <div class="form-group">
+                    <label for="password">パスワード:</label>
+                    <input type="password" id="password" name="password">
+                </div>
+                <button type="submit">ログイン</button>
+            </form>
+            <p id="login-status"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 テストサイト</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
