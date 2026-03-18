@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     // メッセージ変更ボタンの機能
-    const changeTextBtn = document.getElementById('changeTextBtnBefore');
+    const changeTextBtn = document.getElementById('changeTextBtnAfter');
     const message = document.getElementById('message');
     changeTextBtn.addEventListener('click', () => {
         message.textContent = 'ボタンがクリックされました！';
